@@ -16,5 +16,4 @@ const stringOperation = (() => {
         reverseString}
 })();
 
-console.log(stringOperation.capitalize('wanari'));
-console.log(stringOperation.reverseString('wafin'));
+export default stringOperation;
