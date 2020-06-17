@@ -1,19 +1,19 @@
 const stringOperation = (() => {
-    const capitalize = (string) => {
-        return string.charAt(0).toUpperCase() + string.slice(1);
-    }
+  const capitalize = (string) => string.charAt(0).toUpperCase() + string.slice(1);
 
-    const reverseString = (string) => {
-        const array = string.split('');
-        const reverse = [];
-        for (let index = array.length - 1; index >= 0; index--) {
-            reverse.push(array[index]);
-        }
-        return reverse.join('');
+  const reverseString = (string) => {
+    const array = string.split('');
+    const reverse = [];
+    for (let index = array.length - 1; index >= 0; index -= 1) {
+      reverse.push(array[index]);
     }
+    return reverse.join('');
+  };
 
-    return {capitalize,
-        reverseString}
+  return {
+    capitalize,
+    reverseString,
+  };
 })();
 
 export default stringOperation;
