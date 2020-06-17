@@ -64,26 +64,25 @@ This project is a simple Jest-Testing project that was done in an effort to lear
 To get a local copy up and running follow these simple example steps.
 * Clone the project - git clone https://github.com/simoxsimo/Jest-Testing.git if you have git installed, or download it from github
 * open locally and Navigate the Directory. The directory has the following structure:
- 1. A script folder that holds the class and dom scripts respectively.
- 2. A style folder that holds the CSS style and the images folder.
+ 1. A scripts folder that holds the class and dom scripts respectively.
+ 2. A tests folder that holds the test files for the previous scripts.
  3. A README file.
 
-### Usage
+### Install dependencies
 
 ```
-  run live server
+  npm install
 ```
 
 ### Run tests
 
 ```
-  npx eslint .
+  npm run test
 ```
 
 ### Built With
 This project was built using these technologies.
-* HTML5 and CSS3
-* Javascript
+* Javascript (Jest)
 
 <!-- CONTACT -->
 ## Authors
